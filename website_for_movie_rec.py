@@ -10,9 +10,9 @@ import pandas as pd
 from scipy.sparse import csr_matrix
 import pickle
 
-movies = pd.read_csv("C:/Users/kamep/Documents/Github/Movie Recommendation/movie-lens-small-dataset/movies.csv")
+movies = pd.read_csv("movie-lens-small-dataset/movies.csv")
 
-ratings = pd.read_csv("C:/Users/kamep/Documents/Github/Movie Recommendation/movie-lens-small-dataset/ratings.csv")
+ratings = pd.read_csv("movie-lens-small-dataset/ratings.csv")
 
 final_dataset = ratings.pivot(index='movieId',columns='userId',values='rating')
 
@@ -30,7 +30,7 @@ csr_data = csr_matrix(final_dataset.values)
 
 final_dataset.reset_index(inplace=True)
 
-model = pickle.load(open('C:/Users/kamep/Documents/Github/Movie Recommendation/movie_recommendation.sav','rb'))
+model = pickle.load(open('movie_recommendation.sav','rb'))
 
 
 def get_movie_recommendation1(movie_name):
