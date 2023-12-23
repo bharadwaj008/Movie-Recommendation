@@ -1,0 +1,7 @@
+numpy
+streamlit
+scikit-learn
+pandas
+pickle
+scipy
+protobuf==4.21.0
