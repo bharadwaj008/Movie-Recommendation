@@ -68,7 +68,7 @@ st.title(" :movie_camera: Movie Similarity Recommender")
 st.write("Discover movies similar to your favorite! Select one or more movies from the list to get recommendations.")
 
 # Load movie data (replace 'movies.csv' with the actual path to your MovieLens Small Dataset)
-movie_data = pd.read_csv('C:/Users/kamep/Documents/Github/Movie Recommendation/movie-lens-small-dataset/movies.csv')
+movie_data = pd.read_csv('movie-lens-small-dataset/movies.csv')
 
 
 # Split the 'genres' column by '|'
