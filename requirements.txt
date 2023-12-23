@@ -2,6 +2,6 @@ numpy
 streamlit
 scikit-learn
 pandas
-pickle
+pickle-mixin
 scipy
 protobuf==4.21.0
