@@ -10,9 +10,9 @@ import pandas as pd
 from scipy.sparse import csr_matrix
 import pickle
 
-movies = pd.read_csv("C:/Users/kamep/Documents/Github/Movie Recommendation/movie-lens-small-dataset/movies.csv")
+movies = pd.read_csv("movie-lens-small-dataset/movies.csv")
 
-ratings = pd.read_csv("C:/Users/kamep/Documents/Github/Movie Recommendation/movie-lens-small-dataset/ratings.csv")
+ratings = pd.read_csv("movie-lens-small-dataset/ratings.csv")
 
 final_dataset = ratings.pivot(index='movieId',columns='userId',values='rating')
 
