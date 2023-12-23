@@ -30,7 +30,7 @@ csr_data = csr_matrix(final_dataset.values)
 
 final_dataset.reset_index(inplace=True)
 
-model = pickle.load(open('C:/Users/kamep/Documents/Github/Movie Recommendation/movie_recommendation.sav','rb'))
+model = pickle.load(open('movie_recommendation.sav','rb'))
 
 
 def get_movie_recommendation1(movie_name):
