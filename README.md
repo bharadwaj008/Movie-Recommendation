@@ -12,7 +12,7 @@ Collaborative filtering is a suggestion technique that takes into account the us
 
 There exist two distinct categories of collaborative filtering algorithms:
 
-#### Collaborative filtering based on user preferences:
+### Collaborative filtering based on user preferences:
 
 User-based collaborative filtering seeks to suggest items to a user (A) by considering the preferences of other users who are similar to them in the database. The process entails constructing a matrix that represents the preferences, ratings, or clicks of each user for various products. Similarity scores are then calculated across users, and recommendations are made to user A based on items that similar users have enjoyed, but user A has not yet encountered.
 
