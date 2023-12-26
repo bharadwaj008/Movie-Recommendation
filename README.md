@@ -1,4 +1,4 @@
-## Categories of Recommendation Systems:
+This movie recommendation system will provide the user with a list of the top 10 movies that are comparable to the one they searched for. Our purpose will involve the utilization of an item-based collaborative filtering algorithm.## Categories of Recommendation Systems:
 
 ### Content-based Filtering:
 
