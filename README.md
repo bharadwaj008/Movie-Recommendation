@@ -6,7 +6,7 @@ Content-based filtering is a recommendation technique that proposes products tha
 
 Nevertheless, content-based screening has limitations. It restricts people from being exposed to a diverse range of things, hence impeding their ability to explore a variety of objects. This might impede business growth since users may be reluctant to experiment with novel product offerings.
 
-Collaborative filtering:
+### Collaborative filtering:
 
 Collaborative filtering is a suggestion technique that takes into account the user's actions and compares them with those of other users in the database. The recommendation system is influenced by the collective user history. Collaborative filtering, in contrast to content-based filtering, utilizes the interactions between various users and items to provide recommendations. It does not rely exclusively on the data of a single user for modeling. There are different strategies for implementing collaborative filtering, but the fundamental idea is that the recommended output is influenced by the combined actions of multiple users.
 
@@ -25,7 +25,7 @@ huge Matrices: Due to the usual imbalance between the number of users and items,
 
 Vulnerability to Shilling Attacks: Shilling attacks refer to the act of fabricating user profiles with predetermined preferences in order to manipulate the recommendation system. Collaborative filtering that relies on user input is vulnerable to these assaults, which can result in suggestions that are skewed and manipulated.
 
-Item-based Collaborative Filtering:
+### Item-based Collaborative Filtering:
 
 Based on items Collaborative Filtering prioritizes the identification of movies that are comparable to the ones that user 'A' has previously preferred, rather than identifying individuals with similar tastes. The system recognizes movie pairs that have been rated or loved by the same users, calculates their similarity across all users who have rated both movies, and then recommends comparable movies based on the similarity ratings.
 
