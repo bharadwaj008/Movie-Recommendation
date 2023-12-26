@@ -1,5 +1,6 @@
 This movie recommendation system will provide the user with a list of the top 10 movies that are comparable to the one they searched for. Our purpose will involve the utilization of an item-based collaborative filtering algorithm.## Categories of Recommendation Systems:
 
+
 ### Content-based Filtering:
 
 Content-based filtering is a recommendation technique that proposes products that are comparable to the ones a user has previously expressed a liking for. The system computes similarity, typically employing cosine similarity, between the user's choices and qualities of items, such as lead actors, directors, and genres. For instance, if a user has a preference for 'The Prestige', the system suggests movies featuring 'Christian Bale', movies in the 'Thriller' genre, or films directed by 'Christopher Nolan'.
